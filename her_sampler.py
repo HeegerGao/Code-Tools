@@ -3,7 +3,7 @@
 '''
 import numpy as np
 
-class her_sampler:
+class HerSampler:
     def __init__(self, replay_strategy, replay_k, reward_func=None):
         '''
         replay_strategy:一般reply_strategy使用future，表示从sample样本之后的状态中找ag
